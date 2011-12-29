@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-morev
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 This is a "translation" of the moreverb documentation.
@@ -27,7 +25,6 @@ This is a "translation" of the moreverb documentation.
 %doc %{_texmfdistdir}/doc/latex/translation-moreverb-de/filecontens-de.ins.txt
 %doc %{_texmfdistdir}/doc/latex/translation-moreverb-de/moreverb-de.dtx.pdf
 %doc %{_texmfdistdir}/doc/latex/translation-moreverb-de/moreverb-de.dtx.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -38,5 +35,3 @@ This is a "translation" of the moreverb documentation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
