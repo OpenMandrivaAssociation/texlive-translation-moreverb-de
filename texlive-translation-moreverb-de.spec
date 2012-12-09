@@ -35,3 +35,16 @@ This is a "translation" of the moreverb documentation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110914-2
++ Revision: 757085
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110914-1
++ Revision: 719801
+- texlive-translation-moreverb-de
+- texlive-translation-moreverb-de
+- texlive-translation-moreverb-de
+
