@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-translation-moreverb-de
 Version:	20110914
-Release:	8
+Release:	9
 Summary:	German version of moreverb
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/moreverb/de
