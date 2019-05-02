@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-translation-moreverb-de
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	German version of moreverb
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/moreverb/de
