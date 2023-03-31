@@ -1,6 +1,6 @@
 Name:		texlive-translation-moreverb-de
 Version:	23957
-Release:	1
+Release:	2
 Summary:	German version of moreverb
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/moreverb/de
