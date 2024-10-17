@@ -3,7 +3,7 @@ Version:	23957
 Release:	2
 Summary:	German version of moreverb
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/translations/moreverb/de
+URL:		https://www.ctan.org/tex-archive/info/translations/moreverb/de
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-moreverb-de.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-moreverb-de.doc.r%{version}.tar.xz
